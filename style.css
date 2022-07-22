@@ -1,3 +1,62 @@
-h1 {
+body {
+  margin: auto;
+  max-width: 80%;
 
+}
+
+header {
+  max-width: 80%;
+}
+
+h1 {
+  font-family:'Courier New', Courier, monospace ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.border {
+  height: 20px;
+  background-image: url(lab-a/lab-assets/hr-img.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.img {
+  max-width: max-content;
+  margin: 0 65px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bottom-border {
+  height: 20px;
+  max-width: 80%;
+  background-image: url(lab-a/lab-assets/hr-img.png);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.bio {
+
+}
+
+footer {
+  text-align: center;
+  font-size: small;
 }
